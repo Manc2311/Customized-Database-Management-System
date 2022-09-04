@@ -57,7 +57,6 @@ class DBMS
                 String tokens[] = Query.split(" ");
                 int QuerySize = tokens.length;
 
-             // tokens mdhe jr help lihila tr tychi QuerySize 1 ahe bcoz to ek token ahe 
                 if(QuerySize == 1)
                 {
 
@@ -91,7 +90,7 @@ class DBMS
                     {     
                         // tokens[0]   tokens[1]   tokens[2]   tokens[3]   tokens[4]
                         // Insert      into        student     Piyush      1000;          
-                        InsertData(tokens[3],Integer.parseInt(tokens[4]));  // insertdata la detoy mhnun tokens[3] ani tokens[4] ghetle ani 1000 la integer mdhe convert karaych hot mhnun parsInt use kel
+                        InsertData(tokens[3],Integer.parseInt(tokens[4])); 
 
                     }
 
@@ -235,7 +234,7 @@ class DBMS
         }
 }
 
-class pr1
+class DatabaseSystem
 {
     public static void main(String arg[])
     {
